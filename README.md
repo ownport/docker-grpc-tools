@@ -1,8 +1,13 @@
 # docker-grpc-tools
 
-Docker image with gRPC tools
+Docker image with gRPC tools. 
 
 ## gRPC tools
+
+## Docker image
+```
+docker pull ownport/grpc-tools:1.17.2
+```
 
 ### grpc_cli
 
@@ -22,3 +27,12 @@ No command specified
 
 # 
 ```
+
+## For developers
+```
+$ make build
+```
+
+## Notes
+
+The project was inspired by https://github.com/webplates/docker-grpc-cli
